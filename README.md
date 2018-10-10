@@ -1,9 +1,6 @@
-<table>
-<tbody align="center">
-<tr><td colspan='5'>
+<p align="center">
 <img src="https://user-images.githubusercontent.com/11221489/46771659-6886bc80-cca9-11e8-89b1-9ade979cd778.png"/>
-</td></tr>
-</tbody></table>
+</p>
 Colorscheme based on Espresso
 
 :space_invader: Set Up
