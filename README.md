@@ -6,14 +6,14 @@
 :space_invader: Set Up
 ------
 
-###### [Terminal Vim]
+###Terminal Vim
 Requires Vim 8. and Tmux 2.2
 ```VimL
 set termguicolors
 colorscheme breve
 ```
 
-###### [MacVim gVim]
+###MacVim gVim
 ```VimL
 colorscheme breve
 ```
