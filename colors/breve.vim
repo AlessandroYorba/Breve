@@ -2,7 +2,7 @@
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
 "UPDATED: Oct 10, 2018
-"CHANGES: New Purple
+"CHANGES: ErrorMsg
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -109,11 +109,11 @@ highlight! link DiffDelete Orange_Highlighted
 "RED:
 highlight! Red_Highlighted guifg=#CF4F5F guibg=#FFF0F0 gui=NONE
 highlight! link String Red_Highlighted
-highlight! link ErrorMsg Red_Highlighted
 
 highlight! Red guifg=#CF4F5F guibg=NONE gui=NONE
 highlight! link CursorLineNr Red
 highlight! link WarningMsg Red
+highlight! link ErrorMsg Red
 
 highlight! Red_Reverse guifg=#CF4F5F guibg=#ffffff gui=reverse cterm=reverse
 highlight! link Error Red_Reverse
