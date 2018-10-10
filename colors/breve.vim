@@ -2,7 +2,7 @@
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
 "UPDATED: Oct 10th, 2018
-"CHANGES: Updated TODO
+"CHANGES: WarningMsg Testing Out New Purple
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -48,19 +48,22 @@ highlight! link htmlStatement Blue_Highlighted
 highlight! link Directory Blue_Highlighted
 
 "PURPLE:
-highlight! Purple guifg=#6618B6 guibg=NONE gui=NONE
+"highlight! Purple guifg=#6618B6 guibg=NONE gui=NONE
+highlight! Purple guifg=#7653C1 guibg=NONE gui=NONE
 highlight! link Special Purple
 highlight! link Number Purple
 highlight! link netrwList Purple
 highlight! link netrwSymLink Purple
 
-highlight! Purple_Highlighted guifg=#6618B6 guibg=#F3F2FF gui=NONE
+"highlight! Purple_Highlighted guifg=#6618B6 guibg=#F3F2FF gui=NONE
+highlight! Purple_Highlighted guifg=#7653C1 guibg=#F3F2FF gui=NONE
 highlight! link PreProc Purple_Highlighted
 highlight! link Title Purple_Highlighted
 highlight! link Constant Purple_Highlighted
 highlight! link Type Purple_Highlighted
 
-highlight! Purple_Reverse guifg=#ffffff guibg=#6618B6 gui=NONE
+"highlight! Purple_Reverse guifg=#ffffff guibg=#6618B6 gui=NONE
+highlight! Purple_Reverse guifg=#ffffff guibg=#7653C1 gui=NONE
 highlight! link Todo Purple_Reverse
 highlight! link MatchParen Purple_Reverse
 highlight! link Search Purple_Reverse
@@ -105,7 +108,6 @@ highlight! link SpellLocal Green_Undercurl
 highlight! Orange_Highlighted guifg=#F39E27 guibg=#FDF2E2 gui=NONE
 highlight! link DiffChange Orange_Highlighted
 highlight! link DiffDelete Orange_Highlighted
-highlight! link WarningMsg Orange_Highlighted
 
 "RED:
 highlight! Red_Highlighted guifg=#CF4F5F guibg=#FFF0F0 gui=NONE
@@ -114,6 +116,7 @@ highlight! link ErrorMsg Red_Highlighted
 
 highlight! Red guifg=#CF4F5F guibg=NONE gui=NONE
 highlight! link CursorLineNr Red
+highlight! link WarningMsg Red
 
 highlight! Red_Reverse guifg=#CF4F5F guibg=#ffffff gui=reverse cterm=reverse
 highlight! link Error Red_Reverse
