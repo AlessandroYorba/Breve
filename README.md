@@ -6,7 +6,7 @@
 :space_invader: Set Up
 ------
 
-<h5 align="center">Terminal Vim</h5>
+<h5 align="left">Terminal Vim</h5>
 Requires Vim 8. and Tmux 2.2
 
 ```VimL
@@ -14,7 +14,7 @@ set termguicolors
 colorscheme breve
 ```
 
-<h5 align="center">MacVim gVim</h5>
+<h5 align="left">MacVim gVim</h5>
 
 ```VimL
 colorscheme breve
