@@ -2,7 +2,7 @@
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
 "UPDATED: Oct 10th, 2018
-"CHANGES: First Commit
+"CHANGES: Updated TODO
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -129,6 +129,7 @@ highlight! CursorLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
 "SpellCap gui=undercurl
 "Underlined gui=underline
 "netrwExe
+"VisualNOS
 
 "LICENSE
 "Copyright (c) 2018 Alessandro Yorba
