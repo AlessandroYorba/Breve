@@ -2,7 +2,7 @@
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
 "UPDATED: Oct 10, 2018
-"CHANGES: ErrorMsg
+"CHANGES: Underlined
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -47,6 +47,8 @@ highlight! link Identifier Blue_Highlighted
 highlight! link htmlStatement Blue_Highlighted
 highlight! link Directory Blue_Highlighted
 
+highlight! Blue_Underlined guifg=#2F6F9F guibg=NONE gui=underline cterm=underline
+
 "PURPLE:
 highlight! Purple guifg=#7653C1 guibg=NONE gui=NONE
 highlight! link Special Purple
@@ -64,6 +66,9 @@ highlight! Purple_Reverse guifg=#ffffff guibg=#7653C1 gui=NONE
 highlight! link Todo Purple_Reverse
 highlight! link MatchParen Purple_Reverse
 highlight! link Search Purple_Reverse
+
+highlight! Purple_Underlined guifg=#7653C1 guibg=NONE gui=NONE cterm=underline
+highlight! link Underlined Purple_Underlined
 
 "GREY:
 highlight! Grey guifg=#838C96 guibg=NONE gui=NONE
@@ -98,7 +103,7 @@ highlight! link DiffAdd Green_Highlighted
 highlight! link DiffText Green_Highlighted
 highlight! link Question Green_Highlighted
 
-highlight! Green_Undercurl guifg=#125C31 guibg=NONE gui=undercurl
+highlight! Green_Undercurl guifg=#125C31 guibg=NONE gui=undercurl cterm=undercurl
 highlight! link SpellLocal Green_Undercurl
 
 "ORANGE:
@@ -118,7 +123,7 @@ highlight! link ErrorMsg Red
 highlight! Red_Reverse guifg=#CF4F5F guibg=#ffffff gui=reverse cterm=reverse
 highlight! link Error Red_Reverse
 
-highlight! Red_Undercurl guifg=#CF4F5F guibg=NONE gui=undercurl
+highlight! Red_Undercurl guifg=#CF4F5F guibg=NONE gui=undercurl cterm=undercurl
 highlight! link SpellBad Red_Undercurl
 
 "CURSORLINE:
@@ -127,9 +132,9 @@ highlight! CursorLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
 "TODO
 "SpellRare gui=undercurl
 "SpellCap gui=undercurl
-"Underlined gui=underline
 "netrwExe
 "VisualNOS
+"Conceal
 
 "LICENSE
 "Copyright (c) 2018 Alessandro Yorba
