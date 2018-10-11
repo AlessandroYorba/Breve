@@ -67,7 +67,7 @@ highlight! link Todo Purple_Reverse
 highlight! link MatchParen Purple_Reverse
 highlight! link Search Purple_Reverse
 
-highlight! Purple_Underlined guifg=#7653C1 guibg=NONE gui=NONE cterm=underline
+highlight! Purple_Underlined guifg=#7653C1 guibg=NONE gui=underline cterm=underline
 highlight! link Underlined Purple_Underlined
 
 "GREY:
