@@ -10,9 +10,10 @@
 
 <h5 align="left">Terminal Vim</h5>
 Requirements: 
-TrueColour terminal [List](https://gist.github.com/XVilka/8346728)<br>
-Current version of Vim [Vim8](https://github.com/vim/vim)<br>
-Current version of Tmux [Tmux2.2](https://github.com/tmux/tmux)<br>
+[TrueColour](https://gist.github.com/XVilka/8346728) TrueColour terminal<br>
+[Vim8](https://github.com/vim/vim) Current version of Vim<br>
+[Tmux2.2](https://github.com/tmux/tmux) Current version of Tmux<br>
+
 
 ```VimL
 set termguicolors
