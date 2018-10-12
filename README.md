@@ -9,7 +9,9 @@
 ------
 
 <h5 align="left">Terminal Vim</h5>
-Requirements: 
+<h3>Requirements:</h3>
+
+
 [TrueColour](https://gist.github.com/XVilka/8346728) TrueColour terminal<br>
 [Vim8](https://github.com/vim/vim) Current version of Vim<br>
 [Tmux2.2](https://github.com/tmux/tmux) Current version of Tmux<br>
