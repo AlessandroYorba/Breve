@@ -9,7 +9,7 @@
 ------
 
 <h5 align="left">Terminal Vim</h5>
-Requirements: [Truecolour supported terminal](https://gist.github.com/XVilka/8346728) && Vim 8. Optional Tmux need version 2.2
+Requirements: ![Truecolour supported terminal](https://gist.github.com/XVilka/8346728) && Vim 8. Tmux [optional] needs to be version 2.2
 
 ```VimL
 set termguicolors
