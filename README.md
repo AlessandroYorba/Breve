@@ -8,14 +8,13 @@
 :space_invader: Set Up
 ------
 
-<h5 align="left">Terminal Vim</h5>
-Requires Vim 8 and a terminal with truecolour support<br>
-If running Tmux you'll need tmux version 2.2<br>
+<h5 align="left">Vim 8 with truecolour terminal</h5>
 
 ```VimL
 set termguicolors
 colorscheme breve
 ```
+** If running Tmux you'll need tmux version 2.2<br>
 
 <h5 align="left">MacVim gVim</h5>
 
