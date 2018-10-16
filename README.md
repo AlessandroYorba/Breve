@@ -9,10 +9,8 @@
 ------
 
 <h5 align="left">Terminal Vim</h5>
-<h3>Requirements:</h3>
-- Vim 8 or greater
-- A TrueColour terminal [Supported Terminals](https://gist.github.com/XVilka/8346728) <br>
-- If running Tmux [Tmux2.2](https://github.com/tmux/tmux)<br>
+Requires Vim 8 and a terminal with truecolour support<br>
+If running Tmux you'll need tmux version 2.2<br>
 
 ```VimL
 set termguicolors
