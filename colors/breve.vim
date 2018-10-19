@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
-"UPDATED: Oct 15, 2018
-"CHANGES: WildMenu, PmenuSel changed to Purple_Reverse
+"UPDATED: Oct 18, 2018
+"CHANGES: Testing New TabLineSel
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -21,7 +21,7 @@ let g:colors_name="breve"
 highlight! Normal guifg=#121212 guibg=#ffffff gui=NONE cterm=NONE
 highlight! link Operator Normal
 highlight! link FoldColumn Normal
-highlight! link TabLineSel Normal
+"highlight! link TabLineSel Normal
 highlight! link ModeMsg Normal
 highlight! link MoreMsg Normal
 
@@ -120,6 +120,7 @@ highlight! link ErrorMsg Red
 
 highlight! Red_Reverse guifg=#CF4F5F guibg=#ffffff gui=reverse cterm=reverse 
 highlight! link Error Red_Reverse
+highlight! link TabLineSel Red_Reverse
 
 highlight! Red_Undercurl guifg=#CF4F5F guibg=NONE gui=undercurl cterm=undercurl
 highlight! link SpellBad Red_Undercurl
