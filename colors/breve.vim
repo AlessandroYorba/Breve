@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
-"UPDATED: Oct 18, 2018
-"CHANGES: Changed #eeeeee to #F9F9F9
+"UPDATED: Oct 20, 2018
+"CHANGES: Changed #F9F9F9 back to #eeeeee
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -25,12 +25,12 @@ highlight! link FoldColumn Normal
 highlight! link ModeMsg Normal
 highlight! link MoreMsg Normal
 
-highlight! Black_Highlighted guifg=#121212 guibg=#F9F9F9 gui=NONE cterm=NONE
+highlight! Black_Highlighted guifg=#121212 guibg=#eeeeee gui=NONE cterm=NONE
 highlight! link StatusLine Black_Highlighted
 highlight! link StatusLineTerm Black_Highlighted
 highlight! link Visual Black_Highlighted
 
-highlight! Black_Reverse guifg=#121212 guibg=#F9F9F9 gui=reverse cterm=reverse
+highlight! Black_Reverse guifg=#121212 guibg=#eeeeee gui=reverse cterm=reverse
 highlight! link Cursor Black_Reverse
 
 "BLUE:
@@ -73,7 +73,7 @@ highlight! Grey guifg=#838C96 guibg=NONE gui=NONE cterm=NONE
 highlight! link Comment Grey
 highlight! link Folded Grey
 
-highlight! Grey_Highlighted guifg=#838C96 guibg=#F9F9F9 gui=NONE cterm=NONE
+highlight! Grey_Highlighted guifg=#838C96 guibg=#eeeeee gui=NONE cterm=NONE
 highlight! link StatusLineNC Grey_Highlighted
 highlight! link StatusLineTermNC Grey_Highlighted
 highlight! link Pmenu Grey_Highlighted
