@@ -2,7 +2,7 @@
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
 "UPDATED: Dec 4, 2019
-"CHANGES: Revising Colors
+"CHANGES: CSS Identifier, CSS Classname, 
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -21,7 +21,6 @@ let g:colors_name="breve"
 highlight! Normal guifg=#121212 guibg=#ffffff gui=NONE cterm=NONE
 highlight! link Operator Normal
 highlight! link FoldColumn Normal
-"highlight! link TabLineSel Normal
 highlight! link ModeMsg Normal
 highlight! link MoreMsg Normal
 
@@ -41,7 +40,6 @@ highlight! link Type Blue_Dark
 
 
 highlight! Blue_Highlighted guifg=#2F6F9F guibg=#F5FAFF gui=NONE cterm=NONE
-"highlight! link Statement Blue_Highlighted
 highlight! link Function Blue_Highlighted
 highlight! link htmlStatement Blue_Highlighted
 highlight! link Directory Blue_Highlighted
@@ -58,10 +56,11 @@ highlight! Purple_Dark guifg=#4E2D98 guibg=NONE gui=NONE cterm=NONE
 highlight! link Statement Purple_Dark
 highlight! link PreProc Purple_Dark
 highlight! link Title Purple_Dark
+highlight! link cssIdentifier Purple_Dark
+highlight! link cssClassName Purple_Dark
 
 highlight! Purple_Highlighted guifg=#7653C1 guibg=#F3F2FF gui=NONE cterm=NONE
 highlight! link Constant Purple_Highlighted
-"highlight! link Type Purple_Highlighted
 
 highlight! Purple_Reverse guifg=#ffffff guibg=#7653C1 gui=NONE cterm=NONE
 highlight! link Todo Purple_Reverse
@@ -137,6 +136,15 @@ highlight! link SpellBad Red_Undercurl
 highlight! CursorLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
 
 "TODO
+
+" VIMSCRIPT
+highlight link vimAutoCmdSfxList Type
+highlight link vimAutoEventList Identifier
+highlight link vimCmdSep Special
+highlight link vimCommentTitle SpecialComment
+highlight link vimFunction Function
+highlight link vimUserFunc Function
+
 "SpellRare gui=undercurl
 "SpellCap gui=undercurl
 "netrwExe
@@ -144,7 +152,7 @@ highlight! CursorLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
 "Conceal
 
 "LICENSE
-"Copyright (c) 2018 Alessandro Yorba
+"Copyright (c) 2019 Alessandro Yorba
 "
 "Permission is hereby granted, free of charge, to any person obtaining a copy
 "of this software and associated documentation files (the "Software"), to deal
