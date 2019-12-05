@@ -3,7 +3,6 @@
 </p>
 <h3 align="center">Colorscheme based on Espresso</h3>
 
-![screenshot](https://user-images.githubusercontent.com/11221489/47197083-d3bf3700-d318-11e8-9c51-c173e13226e5.png)
 
 :space_invader: Set Up
 ------
