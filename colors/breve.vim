@@ -2,7 +2,7 @@
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
 "UPDATED: Dec 4, 2019
-"CHANGES: CSS Identifier, CSS Classname, 
+"CHANGES: DiffDelete
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -113,11 +113,10 @@ highlight! Orange_Highlighted guifg=#BA671F guibg=#FFFDF7 gui=NONE cterm=NONE
 "highlight! Orange_Highlighted guifg=#BA671F guibg=#FFFDF7 gui=NONE cterm=NONE
 highlight! link String Orange_Highlighted
 highlight! link DiffChange Orange_Highlighted
-highlight! link DiffDelete Orange_Highlighted
 
 "RED:
 highlight! Red_Highlighted guifg=#CF4F5F guibg=#FFF0F0 gui=NONE cterm=NONE
-"highlight! link htmlString Red_Highlighted
+highlight! link DiffDelete Red_Highlighted
 
 highlight! Red guifg=#CF4F5F guibg=NONE gui=NONE cterm=NONE
 highlight! link htmlString Red
@@ -133,7 +132,8 @@ highlight! Red_Undercurl guifg=#CF4F5F guibg=NONE gui=undercurl cterm=undercurl
 highlight! link SpellBad Red_Undercurl
 
 "CURSORLINE:
-highlight! CursorLine guifg=NONE guibg=NONE gui=NONE cterm=NONE
+highlight! CursorLine guifg=NONE guibg=#FAFAFA gui=NONE cterm=NONE
+highlight! CursorLine guifg=NONE guibg=#FCFCFC gui=NONE cterm=NONE
 
 "TODO
 
