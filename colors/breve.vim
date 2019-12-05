@@ -2,7 +2,7 @@
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
 "UPDATED: Dec 4, 2019
-"CHANGES: DiffDelete
+"CHANGES: htmlTagN
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -42,6 +42,7 @@ highlight! link Type Blue_Dark
 highlight! Blue_Highlighted guifg=#2F6F9F guibg=#F5FAFF gui=NONE cterm=NONE
 highlight! link Function Blue_Highlighted
 highlight! link htmlStatement Blue_Highlighted
+highlight! link htmlTagN Blue_Highlighted
 highlight! link Directory Blue_Highlighted
 
 "PURPLE:
@@ -171,3 +172,4 @@ highlight link vimUserFunc Function
 "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 "THE SOFTWARE.
+
