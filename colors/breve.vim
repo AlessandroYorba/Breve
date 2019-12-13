@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
-"UPDATED: Dec 12th, 2019
-"CHANGES: Pmenu Groups, Tabline Groups, Visual, Search
+"UPDATED: Dec 13th, 2019
+"CHANGES: VimCommentTitle
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -85,6 +85,7 @@ highlight! link Underlined Purple_Underline
 "GREY:
 highlight! Grey guifg=#838C96 guibg=NONE gui=NONE cterm=NONE
 highlight! link Comment Grey
+highlight! link VimCommentTitle Grey
 highlight! link Folded Grey
 highlight! link Pmenu Grey
 
@@ -97,7 +98,6 @@ highlight! link SignColumn Grey_Highlighted
 highlight! link CursorColumn Grey_Highlighted
 highlight! link ColorColumn Grey_Highlighted
 highlight! link ToolbarLine Grey_Highlighted
-highlight! link VimCommentTitle Grey_Highlighted
 highlight! link SpecialComment Grey_Highlighted
 highlight! link PmenuSbar Grey_Highlighted
 highlight! link PmenuThumb Grey_Highlighted
@@ -111,14 +111,12 @@ highlight! link PmenuSel Grey_Reversed
 highlight! link WildMenu Grey_Reversed
 highlight! link TabLineSel Grey_Reversed
 
-
 "SILVER:
 highlight! Silver guifg=#C4C8CD guibg=NONE gui=NONE cterm=NONE
 highlight! link NonText Silver
 highlight! link SpecialKey Silver
 highlight! link VertSplit Silver
 highlight! link LineNr Silver
-"TODO
 
 "SILVER UNDERLINE:
 highlight! Silver_Underline guifg=#C4C8CD guibg=NONE gui=Underline cterm=Underline
