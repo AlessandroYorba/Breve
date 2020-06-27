@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
-"UPDATED: Dec 15th, 2019
-"CHANGES: Changed Silver Color
+"UPDATED: June 27th 2020
+"CHANGES: Added Normal
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -16,6 +16,8 @@ highlight clear
 endif
 
 let g:colors_name="breve"
+"WHITE:
+highlight! Normal guifg=#121212 guibg=#ffffff gui=NONE cterm=NONE
 
 "BLACK:
 highlight! Black guifg=#121212 guibg=#ffffff gui=NONE cterm=NONE
@@ -187,4 +189,3 @@ highlight! CursorLine guifg=NONE guibg=#FCFCFC gui=NONE cterm=NONE
 "LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 "OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 "THE SOFTWARE.
-
