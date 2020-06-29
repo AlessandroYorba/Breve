@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
-"UPDATED: June 27th 2020
-"CHANGES: Added Normal
+"UPDATED: June 29th 2020
+"CHANGES: Revised Black, White, Purple
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -17,10 +17,10 @@ endif
 
 let g:colors_name="breve"
 "WHITE:
-highlight! Normal guifg=#121212 guibg=#ffffff gui=NONE cterm=NONE
+highlight! Normal guifg=#3a3a3a guibg=#ffffff gui=NONE cterm=NONE
 
 "BLACK:
-highlight! Black guifg=#121212 guibg=#ffffff gui=NONE cterm=NONE
+highlight! Black guifg=#3a3a3a guibg=#ffffff gui=NONE cterm=NONE
 highlight! link Operator Black
 highlight! link FoldColumn Black
 highlight! link ModeMsg Black
@@ -48,8 +48,13 @@ highlight! link Directory Blue_Highlighted
 highlight! link vimFunction Blue_Highlighted
 highlight! link vimUserFunc Blue_Highlighted
 
-"PURPLE:
-highlight! Purple guifg=#7653C1 guibg=NONE gui=NONE cterm=NONE
+"Purple
+highlight! Purple guifg=#4E2D98 guibg=NONE gui=NONE cterm=NONE
+highlight! link Statement Purple
+highlight! link PreProc Purple
+highlight! link Title Purple
+highlight! link cssIdentifier Purple
+highlight! link cssClassName Purple
 highlight! link Identifier Purple
 highlight! link Special Purple
 highlight! link Number Purple
@@ -59,25 +64,17 @@ highlight! link vimAutoEventList Purple
 highlight! link vimCmdSep Purple
 
 "PURPLE HIGHLIGHTED:
-highlight! Purple_Highlighted guifg=#7653C1 guibg=#F3F2FF gui=NONE cterm=NONE
+highlight! Purple_Highlighted guifg=#4E2D98 guibg=#F3F2FF gui=NONE cterm=NONE
 highlight! link Constant Purple_Highlighted
 highlight! link htmlScriptTag Purple_Highlighted
 highlight! link htmlSpecialTagName Purple_Highlighted
 
-"DARK PURPLE:
-highlight! Dark_Purple guifg=#4E2D98 guibg=NONE gui=NONE cterm=NONE
-highlight! link Statement Dark_Purple
-highlight! link PreProc Dark_Purple
-highlight! link Title Dark_Purple
-highlight! link cssIdentifier Dark_Purple
-highlight! link cssClassName Dark_Purple
-
 "PURPLE REVERSE:
-highlight! Purple_Reverse guifg=#ffffff guibg=#7653C1 gui=NONE cterm=NONE
+highlight! Purple_Reverse guifg=#ffffff guibg=#4E2D98 gui=NONE cterm=NONE
 highlight! link Todo Purple_Reverse
 
 "PURPLE UNDERLINE:
-highlight! Purple_Underline guifg=#7653C1 guibg=NONE gui=underline cterm=underline
+highlight! Purple_Underline guifg=#4E2D98 guibg=NONE gui=underline cterm=underline
 highlight! link Underlined Purple_Underline
 
 "GREY:
