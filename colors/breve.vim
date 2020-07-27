@@ -2,7 +2,7 @@
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
 "UPDATED: july 27 2020
-"CHANGES: Added cyan, added css
+"CHANGES: PythonFunction
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -63,6 +63,7 @@ highlight! link cssClassName Blue_Highlighted
 highlight! Violet guifg=#301B5C guibg=NONE gui=Bold cterm=Bold
 highlight! link PreProc Violet
 highlight! link RubyFunction Violet
+highlight! link PythonFunction Violet
 
 "PURPLE
 highlight! Purple guifg=#4E2D98 guibg=NONE gui=NONE cterm=NONE
