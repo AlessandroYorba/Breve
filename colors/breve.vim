@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
-"UPDATED: June 29th 2020
-"CHANGES: Revised Black, White, Purple
+"UPDATED: july 27 2020
+"CHANGES: Added cyan, added css
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -16,6 +16,7 @@ highlight clear
 endif
 
 let g:colors_name="breve"
+
 "WHITE:
 highlight! Normal guifg=#3a3a3a guibg=#ffffff gui=NONE cterm=NONE
 
@@ -25,49 +26,63 @@ highlight! link Operator Black
 highlight! link FoldColumn Black
 highlight! link ModeMsg Black
 highlight! link MoreMsg Black
+highlight! link netrwExe Black
 
 
 "BLACK REVERSE:
 highlight! Black_Reverse guifg=#121212 guibg=#eeeeee gui=reverse cterm=reverse
 highlight! link Cursor Black_Reverse
 
+"CYAN
+highlight! Cyan guifg=#53A0CD guibg=NONE gui=NONE cterm=NONE
+highlight! link htmlArg Cyan
+highlight! link Constant Cyan
+
 "BLUE:
 highlight! Blue guifg=#2F6F9F guibg=NONE gui=NONE cterm=NONE
-highlight! link StorageClass Blue
+highlight! link htmlTag Blue
 highlight! link Type Blue
 highlight! link vimAutoCmdSfxList Blue
+highlight! link CssIdentifier Blue
 
 "BLUE HIGHLIGHTED:
 highlight! Blue_Highlighted guifg=#2F6F9F guibg=#F5FAFF gui=NONE cterm=NONE
-highlight! link Function Blue_Highlighted
+highlight! link Special Blue_Highlighted
 highlight! link htmlStatement Blue_Highlighted
-highlight! link htmlArg Blue_Highlighted
 highlight! link htmlEndTag Blue_Highlighted
 highlight! link htmlTagN Blue_Highlighted
 highlight! link Directory Blue_Highlighted
 highlight! link vimFunction Blue_Highlighted
 highlight! link vimUserFunc Blue_Highlighted
+highlight! link CssTagName Blue_Highlighted
+highlight! link CssClassName Blue_Highlighted
+highlight! link cssIdentifier Blue_Highlighted
+highlight! link cssClassName Blue_Highlighted
 
-"Purple
+"VIOLET
+highlight! Violet guifg=#301B5C guibg=NONE gui=Bold cterm=Bold
+highlight! link PreProc Violet
+highlight! link RubyFunction Violet
+
+"PURPLE
 highlight! Purple guifg=#4E2D98 guibg=NONE gui=NONE cterm=NONE
+highlight! link Function Purple
 highlight! link Statement Purple
-highlight! link PreProc Purple
 highlight! link Title Purple
-highlight! link cssIdentifier Purple
-highlight! link cssClassName Purple
 highlight! link Identifier Purple
-highlight! link Special Purple
-highlight! link Number Purple
 highlight! link netrwList Purple
 highlight! link netrwSymLink Purple
 highlight! link vimAutoEventList Purple
 highlight! link vimCmdSep Purple
+highlight! link	RubyDefine Purple
+
 
 "PURPLE HIGHLIGHTED:
 highlight! Purple_Highlighted guifg=#4E2D98 guibg=#F3F2FF gui=NONE cterm=NONE
-highlight! link Constant Purple_Highlighted
+"highlight! link Constant Purple_Highlighted
 highlight! link htmlScriptTag Purple_Highlighted
 highlight! link htmlSpecialTagName Purple_Highlighted
+highlight! link Number Purple_Highlighted
 
 "PURPLE REVERSE:
 highlight! Purple_Reverse guifg=#ffffff guibg=#4E2D98 gui=NONE cterm=NONE
@@ -122,6 +137,20 @@ highlight! link StatusLineTerm Silver_Highlighted
 highlight! Silver_Underline guifg=#C2C7CB guibg=NONE gui=Underline cterm=Underline
 highlight! link TabLineFill Silver_Underline
 
+"GREEN
+highlight! Green guifg=#125C31 guibg=NONE gui=NONE cterm=NONE
+highlight! link CssDefinition Green
+highlight! link cssAttrRegion Green
+highlight! link cssColor Green
+highlight! link cssVendor Green
+highlight! link cssValueLength Green
+highlight! link cssUnitDecorators Green
+highlight! link cssFontAttr Green
+highlight! link cssValueNumber Green
+highlight! link VimHiKeyList Green
+highlight! link VimFbBgAttrib Green
+
+
 "GREEN HIGHLIGHTED:
 highlight! Green_Highlighted guifg=#125C31 guibg=#E7F1EC gui=NONE cterm=NONE
 highlight! link DiffAdd Green_Highlighted
@@ -138,11 +167,12 @@ highlight! link String Orange_Highlighted
 highlight! link DiffChange Orange_Highlighted
 
 "RED:
-highlight! Red guifg=#CF4F5F guibg=NONE gui=NONE cterm=NONE
+highlight! Red guifg=#D76068 guibg=NONE gui=NONE cterm=NONE
 highlight! link htmlString Red
 highlight! link CursorLineNr Red
 highlight! link WarningMsg Red
 highlight! link ErrorMsg Red
+highlight! link StorageClass Red
 
 "RED HIGHLIGHTED:
 highlight! Red_Highlighted guifg=#CF4F5F guibg=#FFF0F0 gui=NONE cterm=NONE
@@ -160,7 +190,6 @@ highlight! link SpellBad Red_Undercurl
 highlight! CursorLine guifg=NONE guibg=#FCFCFC gui=NONE cterm=NONE
 
 "TODO
-"highlight! link netrwExe
 "highlight! link VisualNOS
 "highlight! link Conceal
 "SpellRare gui=undercurl
