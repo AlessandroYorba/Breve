@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
-"UPDATED: july 27 2020
-"CHANGES: PythonFunction
+"UPDATED: July 29 2020
+"CHANGES: Revised Red
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -168,7 +168,9 @@ highlight! link String Orange_Highlighted
 highlight! link DiffChange Orange_Highlighted
 
 "RED:
-highlight! Red guifg=#D76068 guibg=NONE gui=NONE cterm=NONE
+"TODO 
+"highlight! Red guifg=#D76068 guibg=NONE gui=NONE cterm=NONE
+highlight! Red guifg=#D24A53 guibg=NONE gui=NONE cterm=NONE
 highlight! link htmlString Red
 highlight! link CursorLineNr Red
 highlight! link WarningMsg Red
@@ -176,15 +178,15 @@ highlight! link ErrorMsg Red
 highlight! link StorageClass Red
 
 "RED HIGHLIGHTED:
-highlight! Red_Highlighted guifg=#CF4F5F guibg=#FFF0F0 gui=NONE cterm=NONE
+highlight! Red_Highlighted guifg=#D24A53 guibg=#FFF0F0 gui=NONE cterm=NONE
 highlight! link DiffDelete Red_Highlighted
 
 "RED REVERSE:
-highlight! Red_Reverse guifg=#CF4F5F guibg=#ffffff gui=reverse cterm=reverse 
+highlight! Red_Reverse guifg=#D24A53 guibg=#ffffff gui=reverse cterm=reverse 
 highlight! link Error Red_Reverse
 
 "RED UNDERCURL:
-highlight! Red_Undercurl guifg=#CF4F5F guibg=NONE gui=undercurl cterm=undercurl
+highlight! Red_Undercurl guifg=#D24A53 guibg=NONE gui=undercurl cterm=undercurl
 highlight! link SpellBad Red_Undercurl
 
 "CURSORLINE:
