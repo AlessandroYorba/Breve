@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
-"UPDATED: July 29 2020
-"CHANGES: Revised Red
+"UPDATED: July 30 2020
+"CHANGES: Statusline, TabLine, Pmenu
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -19,6 +19,7 @@ let g:colors_name="breve"
 
 "WHITE:
 highlight! Normal guifg=#3a3a3a guibg=#ffffff gui=NONE cterm=NONE
+highlight! link TabLineFill Normal
 
 "BLACK:
 highlight! Black guifg=#3a3a3a guibg=#ffffff gui=NONE cterm=NONE
@@ -27,6 +28,8 @@ highlight! link FoldColumn Black
 highlight! link ModeMsg Black
 highlight! link MoreMsg Black
 highlight! link netrwExe Black
+highlight! link StatusLine Black
+highlight! link StatusLineTerm Black
 
 
 "BLACK REVERSE:
@@ -80,13 +83,12 @@ highlight! link	RubyDefine Purple
 
 "PURPLE HIGHLIGHTED:
 highlight! Purple_Highlighted guifg=#4E2D98 guibg=#F3F2FF gui=NONE cterm=NONE
-"highlight! link Constant Purple_Highlighted
 highlight! link htmlScriptTag Purple_Highlighted
 highlight! link htmlSpecialTagName Purple_Highlighted
 highlight! link Number Purple_Highlighted
 
 "PURPLE REVERSE:
-highlight! Purple_Reverse guifg=#ffffff guibg=#4E2D98 gui=NONE cterm=NONE
+highlight! Purple_Reverse guifg=#4E2D98 guibg=#ffffff gui=reverse cterm=reverse
 highlight! link Todo Purple_Reverse
 
 "PURPLE UNDERLINE:
@@ -98,12 +100,10 @@ highlight! Grey guifg=#838C96 guibg=NONE gui=NONE cterm=NONE
 highlight! link Comment Grey
 highlight! link VimCommentTitle Grey
 highlight! link Folded Grey
-highlight! link Pmenu Grey
+"highlight! link Pmenu Grey
 
 "GREY HIGHLIGHTED:
 highlight! Grey_Highlighted guifg=#838C96 guibg=#eeeeee gui=NONE cterm=NONE
-highlight! link StatusLineNC Grey_Highlighted
-highlight! link StatusLineTermNC Grey_Highlighted
 highlight! link TabLine Grey_Highlighted
 highlight! link SignColumn Grey_Highlighted
 highlight! link CursorColumn Grey_Highlighted
@@ -112,6 +112,7 @@ highlight! link ToolbarLine Grey_Highlighted
 highlight! link SpecialComment Grey_Highlighted
 highlight! link PmenuSbar Grey_Highlighted
 highlight! link PmenuThumb Grey_Highlighted
+highlight! link Pmenu Grey_Highlighted
 
 "GREY REVERSE:
 highlight! Grey_Reversed guifg=#ffffff guibg=#838C96 gui=NONE cterm=NONE
@@ -128,15 +129,14 @@ highlight! link NonText Silver
 highlight! link SpecialKey Silver
 highlight! link VertSplit Silver
 highlight! link LineNr Silver
+highlight! link StatusLineNC Silver
+highlight! link StatusLineTermNC Silver
 
 "SILVER HIGHLIGHTED:
 highlight! Silver_Highlighted guifg=#121212 guibg=#C2C7CB gui=NONE cterm=NONE
-highlight! link StatusLine Silver_Highlighted
-highlight! link StatusLineTerm Silver_Highlighted
 
 "SILVER UNDERLINE:
 highlight! Silver_Underline guifg=#C2C7CB guibg=NONE gui=Underline cterm=Underline
-highlight! link TabLineFill Silver_Underline
 
 "GREEN
 highlight! Green guifg=#125C31 guibg=NONE gui=NONE cterm=NONE
