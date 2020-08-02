@@ -1,8 +1,8 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
-"UPDATED: July 30 2020
-"CHANGES: Statusline, TabLine, Pmenu
+"UPDATED: Aug 1st, 2020
+"CHANGES: StatusLine, StatusLineNC
 
 "SUPPORT:
 "MacVim, gVim, or Terminal versions of Vim that support Termguicolors
@@ -28,8 +28,6 @@ highlight! link FoldColumn Black
 highlight! link ModeMsg Black
 highlight! link MoreMsg Black
 highlight! link netrwExe Black
-highlight! link StatusLine Black
-highlight! link StatusLineTerm Black
 
 
 "BLACK REVERSE:
@@ -104,7 +102,6 @@ highlight! link Folded Grey
 
 "GREY HIGHLIGHTED:
 highlight! Grey_Highlighted guifg=#838C96 guibg=#eeeeee gui=NONE cterm=NONE
-highlight! link TabLine Grey_Highlighted
 highlight! link SignColumn Grey_Highlighted
 highlight! link CursorColumn Grey_Highlighted
 highlight! link ColorColumn Grey_Highlighted
@@ -113,6 +110,9 @@ highlight! link SpecialComment Grey_Highlighted
 highlight! link PmenuSbar Grey_Highlighted
 highlight! link PmenuThumb Grey_Highlighted
 highlight! link Pmenu Grey_Highlighted
+highlight! link StatusLine Grey_Highlighted
+highlight! link StatusLineTerm Grey_Highlighted
+highlight! link TabLineSel Grey_Highlighted
 
 "GREY REVERSE:
 highlight! Grey_Reversed guifg=#ffffff guibg=#838C96 gui=NONE cterm=NONE
@@ -121,7 +121,6 @@ highlight! link Visual Grey_Reversed
 highlight! link MatchParen Grey_Reversed
 highlight! link PmenuSel Grey_Reversed
 highlight! link WildMenu Grey_Reversed
-highlight! link TabLineSel Grey_Reversed
 
 "SILVER:
 highlight! Silver guifg=#C2C7CB guibg=NONE gui=NONE cterm=NONE
@@ -131,6 +130,7 @@ highlight! link VertSplit Silver
 highlight! link LineNr Silver
 highlight! link StatusLineNC Silver
 highlight! link StatusLineTermNC Silver
+highlight! link TabLine Silver
 
 "SILVER HIGHLIGHTED:
 highlight! Silver_Highlighted guifg=#121212 guibg=#C2C7CB gui=NONE cterm=NONE
