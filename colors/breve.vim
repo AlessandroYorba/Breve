@@ -1,7 +1,7 @@
 "AUTHOR: Alessandro Yorba
 "SCRIPT: https://github.com/AlessandroYorba/Breve
 
-"UPDATED: Aug 1st, 2020
+"UPDATED: July 31 2022
 "CHANGES: StatusLine, StatusLineNC
 
 "SUPPORT:
